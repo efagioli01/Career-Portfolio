@@ -35,6 +35,17 @@ h1 {
     color: darkorchid;
     font-size: 20px;
 }
+
+/*  
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/backdrop.jpg);
+    background: cover;
+    background-repeat: repeat;
+}
+*/
 /* Navbar */
 
 #navbar {
@@ -99,15 +110,43 @@ h1 {
 .gallery-links {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content:space-between;
+    
 }
+
 .gallery-img {
-    flex-basis: 300px;
-     margin: 10px;
+    flex-basis: 400px;
+     margin: 10px 10px;
 
 }
 .gallery-img img {
+    height: 250px;
+    width: 500px;
+    margin-right:40px;
+    object-fit:contain;
+}
+
+.gallery-img-big img {
+    height: 350px;
+    width: 350px;
+    margin-right: 40px;
+    object-fit:contain;
+    
+}
+
+/* text on images of my work */
+
+.text-wrapper {
     width: 100%;
+    position: relative;
+    margin-top: -13%;
+    background-size: 100%;
+}
+
+.text-wrapper h3 {
+text-align:center;
+color: deeppink;
+font-size: 14px;
 }
 
 
@@ -115,12 +154,13 @@ h1 {
     border: 5px solid rgb(255, 0, 149);  
 }
 
+
 #about-me {
     border: 5px solid color rgb(255, 0, 149);
 }
 
 #contact {
-    border: 5px solid rgb(255, 0, 149);
+    border: 5px solid color rgb(255, 0, 149);
 }
 
 /* Contact links */
