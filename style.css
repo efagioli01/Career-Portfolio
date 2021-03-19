@@ -94,88 +94,56 @@ h1 {
 }
 
 .gallery-links {
+    padding: 20px;
+}
+.gallery-links div{
     display: flex;
     flex-flow: row wrap;
     justify-content:space-between;
-    padding: 20px;
+
 }
 
-/* images in work gallery  */
-
-
- .gallery-img1 {
-    position: relative; 
-    width: 100%;
-   
-    
- }
-
- .gallery-img1 img {
-    height: 350px;
-    width: 250px;
-    margin-right: 40px;
-    border-radius: 50%;
-    object-fit:contain;
-    
- }
-
- .gallery-img2 {
-    position: relative; 
-    width: 100%;
-    
- }
-
- .gallery-img2 img {
+.gallery-links div a {
+    flex-basis: 350px;
     height: 250px;
-    width: 250px;
-    margin-right: 40px;
-    border-radius: 50%;
-    object-fit:contain;
-    display: block;
- }
+    position: relative;
+    margin: 20px; 
 
- .gallery-img3 {
-    position: relative; 
+}
+
+ .gallery-img1 { 
     width: 100%;
     
  }
 
- .gallery-img3 img {
-    height: 250px;
-    width: 250px;
-    margin-right: 40px;
-    border-radius: 50%;
-    object-fit:contain;
-    display: block;
- }
-
- .gallery-img4 {
-    position: relative; 
+ .gallery-links img {
+    height: 100%;
     width: 100%;
+    object-fit:cover;
     
  }
 
- .gallery-img4 img {
-    height: 250px;
-    width: 250px;
-    margin-right: 40px;
-    border-radius: 50%;
-    object-fit:contain;
-    display: block;
+ .gallery-links a:first-of-type {
+    flex-basis: 425px;
+    
  }
 
-
-/* text on images in work gallery */ 
-
- h3{
+.gallery-links h3{
     position: absolute;
-    top: 100px;
-    left: -10% ;
+    bottom: 0;
+    left: 0;
     width: 100%;
     text-align: center;
     font-size: 16px;
     color: black;
- }
+    height: 32px;
+    line-height: 32px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+
+
+ 
 
  #Work {
     border: 2px solid crimson;
@@ -187,7 +155,7 @@ h1 {
 }
 
 #contact {
-    border: px solid color rgb(255, 0, 149);
+    border: 5px solid color rgb(255, 0, 149);
 }
 
 .contact-links { 
