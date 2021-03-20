@@ -4,9 +4,13 @@ For this second homework assignment in week two of UNH Full-Stack Coding Bootcam
 
 I have created a fully responsive portfoilo website that showcases the projects I have worked on thus far. 
 
-I added links to the navigation bar so when the links are clicked on the UI scrolls to the corresponding section. When the link for my work is clicked on the UI scrolls to a section with images and titles of my work, when the picture is clicked on, the UI is taken to Github to view the deployment.
+I added links to the navigation bar so when the links are clicked on the UI scrolls to the corresponding section. 
 
- I have added hover effets on my Navigation bar and my contact links. The hover effect adds a transition of color to my links when the user clicks them to more easily direct them. 
+When the link for my work is clicked on the UI scrolls to a section with images and titles of my work.
+
+When the picture is clicked on, the UI is taken to Github to view the deployment.
+
+I have added hover effets on my Navigation bar and my contact links. The hover effect adds a transition of color to my links when the user clicks them to more easily direct them. 
 
 
 ## Built with
@@ -16,7 +20,7 @@ I added links to the navigation bar so when the links are clicked on the UI scro
 
 
 ## issue
-One in style.css I can not seem find.
+One problem in style.css I can't seem find.
 
 ## Links
 
