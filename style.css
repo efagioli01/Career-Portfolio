@@ -19,17 +19,6 @@ body, html {
     height: 100%;
 }
 
-
-/* Picture of creator */
-
-p img {
-    display: flex;
-    padding: 12px 12px 12px 12px;
-    border-radius: 20%;
-    max-width: 225px; 
-    float: left;
-      
-}
 /* Headers */
 
 header {
@@ -86,15 +75,18 @@ h1 {
 /* Background image */
 
 #subheader {
-    /* background-image: url("./images/nameoffile.jpg"); */
     background-image: url("./images/gradient.jpg");
     padding: 40px 40px 40px 40px;
     margin-top: 40px;
+    width: 100%;
 
 }
 
+/* links to deployment of work */
+
 .gallery-links {
     padding: 20px;
+
 }
 .gallery-links div{
     display: flex;
@@ -108,18 +100,16 @@ h1 {
     height: 250px;
     position: relative;
     margin: 20px; 
+    
 
 }
 
- .gallery-img1 { 
-    width: 100%;
-    
- }
+/* Images of pictures of deployments */
 
  .gallery-links img {
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
+    height: 100%; 
+     width: 100%; 
+     object-fit:cover; 
     
  }
 
@@ -128,6 +118,9 @@ h1 {
     
  }
 
+
+ /*  header on deployment pictures */
+
 .gallery-links h3{
     position: absolute;
     bottom: 0;
@@ -135,23 +128,21 @@ h1 {
     width: 100%;
     text-align: center;
     font-size: 16px;
-    color: black;
+    color:#ffff;
     height: 32px;
     line-height: 32px;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgb(228, 61, 178, 0.25);
 }
 
-
-
- 
-
  #Work {
-    border: 2px solid crimson;
+    border: 2px solid rgb(255, 0, 149)
+    
 }
 
 
 #about-me {
     border: 5px solid color rgb(255, 0, 149);
+    
 }
 
 #contact {
@@ -203,30 +194,45 @@ footer {
 
 @media (max-width: 500px) {
         #navbar ul {
-            height: 160px;
+            height: 160px; 
+            display: flex;
             flex-direction: column;
-            text-align: center;
+            justify-content: center;
 
     }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
         #subheader {
-            height: 160px;
-            
-
+             height: 160px; 
     }   
 
-    @media (max-width: 500px) {
-        #subheader {
-            height: 160px;
-            
-
-    }   
-
-    @media (max-width: 500px) {
+    @media (max-width: 700px) {
         .contact-links ul {
             height: 160px;
+            display: flex;
             flex-direction: column;
-            text-align: center;
+            justify-content: center;
 
     }
+
+     @media (max-width: 700px) { 
+        .gallery-links img { 
+        display: flex; 
+        flex-direction:column;
+        width: 150px;
+        height: auto;
+          }
+            
+        
+
+        @media (max-width: 700px) {
+            .gallery-links div a{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @media (max-width: 700px) {
+                .contact-links h3{
+                    overflow: hidden;
+                }
+                   
