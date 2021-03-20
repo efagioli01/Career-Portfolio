@@ -24,9 +24,9 @@ One problem in style.css I can't seem find.
 
 ## Links
 
-* [GitHub Repository](https://github.com/efagioli01/horiseon-refactor)
-* [Deployed Application](https://efagioli01.github.io/horiseon-refactor/)
+* [GitHub Repository](https://github.com/efagioli01/Erica-Fagioli-Career-Portfolio)
+* [Deployed Application](https://efagioli01.github.io/Erica-Fagioli-Career-Portfolio/)
 
 
 ## Screenshot 
- ![screenshot](./assets/images/horiseon.PNG)
+ ![screenshot](./images/portfoliocapture.PNG)
