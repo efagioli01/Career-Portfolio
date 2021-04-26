@@ -7,102 +7,168 @@
     <link rel="reset.css" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!-- Compressed CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+<!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+      integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I="
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <title>Career Portfolio</title>
 </head>
 
-<body>
-
-    <nav id="navbar">
-        <header>Erica Fagioli</header>
-        <ul>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#Work">work</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="#Resume">Resume</a></li>
-        </ul>
-    </nav>
 
 
-    <div id="subheader"></div>
-    <main>
-
-        <section id="aboutme" class="links">
-            <h1>About Me</h1>
-            <p> <img src="images/profilepicture.PNG" alt="picture of me">
-                My name is Erica Fagioli. I am a graduate of Salem State University with a Bachelor's degree in Business Administration with a
-            concentration in Human Resources Management. I grew up in Massachusetts and in November of 2020 I moved to Florida. 
-            Currently, I work as an Operations Manager. I am working towards my career in Web Development and am enrolled in UNH Full-Stack Coding Bootcamp. I am scheduled to
-        complete the course by August of 2021 and hopefully can get started with my new career soon after! </p>
-           
-        </section>
-    </main>
-
-
-    <section class="gallery-links" id="Work">
-
-        <h1>Work</h1>
-        <div>
-
-
-            <a href="https://efagioli01.github.io/horiseon-refactor/">
-                <img src="images/horiseon.PNG" alt="Horiseon Company refactor website">
-                <h3> Horiseon Company Refactor assignment</h3>
-        </a>
-
-
-            <a href=" https://efagioli01.github.io/Password-Generator-code-refactor/"></a>
-            <img src ="images/Captureforp.PNG"
-                        alt="text">
-                    <h3>Password-Generator-code-refactor</h3>
-            </a>
-           
+<header class="portfolio-hero-header">
+    <img class="portfolio-hero-header-logo" src="images/profile resize.PNG." alt="picture of me"/>
+    <h1 class="portfolio-hero-header-h1">Erica Fagioli</h1>
+    <ul class="portfolio-hero-header-description">
+      <li>Portfolio Example</li>
+      <li>Super Clean</li>
+      <li>Super Simple</li>
+    </ul>
+    <ul class="portfolio-hero-header-menu">
+      <li><a class="hollow button secondary"href="#aboutme">About Me</a></li>
+      <li><a class="hollow button secondary" href="#work">Work</a></li>
+      <li><a class="hollow button secondary" href="#contact">Contact Me</a></li>
+      <li><a class="hollow button secondary"href="#resume">Resume</a></li>
+    </ul>
+  </header>
+  
+  <section id="aboutme" class="aboutMe"> 
+    <h4>About Me</h4>
+       <p> My name is Erica Fagioli. I am a graduate of Salem State University with a Bachelor's degree in Business Administration with a
+    concentration in Human Resources Management. I grew up in Massachusetts and in November of 2020 I moved to Florida. 
+    Currently, I work as an Operations Manager.I am working towards my career in Web Development and am enrolled in UNH Full-Stack Coding Bootcamp. I am scheduled to
+complete the course by August of 2021 and hopefully can get started with my new career soon after! </p> 
+</section>
+  
 
 
-            <a href="https://efagioli01.github.io/API-code-quiz/">
-                    <img src="images/Captureforp2.PNG" alt="text">
-                    <h3>API-code-quiz</h3>
-            </a>
-
-
-            <a
-                href="https://efagioli01.github.io/Work-Day-Scheduler-Code-Refactor/">
-                    <img src="images/Captureforp3.PNG" alt="texts">
-                    <h3> Work-Day-Scheduler-Code-Refactor</h3>
-            </a>
-
-            <a
-                href="https://images.unsplash.com/photo-1535392432937-a27c36ec07b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80/">
-                    <img src="images/palmtree.jpg" alt="Palm trees">
-                    <h3> coming soon!</h3>
-            </a>
-
-            <a
-                href="https://images.unsplash.com/photo-1535392432937-a27c36ec07b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80/">
-                    <img src="images/palmtree.jpg" alt="Palm trees">
-                    <h3> coming soon!</h3>
-            </a>
+<section id="work">
+  <h4>Work</h4>
+<body><div class="grid-container">
+    <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+      <div class="cell">
+        <div class="card">
+          <div class="card-section">
+          <h4>Horiseon Company Refactor assignmen</h4>
+            <a href="https://efagioli01.github.io/horiseon-refactor/"> <img src="images/horiseon.PNG" alt="Horiseon Company refactor website">
+          <!-- <div class="card-section">
+          <h4>Horiseon Company Refactor assignmen</h4> -->
+          <a href="https://github.com/efagioli01/horiseon-refactor">
+            <div class="card-section"></div>
+            <p>Link to Repository</p>
+          </div>
         </div>
+    </a>
+  </a>
+      </div>
+      <div class="cell">
+        <div class="card">
+          <div class="card-section">
+            <h4>Password-Generator-code-refactor</h4>
+          <a href=" https://efagioli01.github.io/Password-Generator-code-refactor/"><img src="images/Captureforp.PNG" alt="text">
+          <!-- <div class="card-section">
+            <h4>Password-Generator-code-refactor</h4> -->
+            <a href="https://github.com/efagioli01/Password-Generator-code-refactor">
+              <div class="card-section"></div>
+            <p>Link to Repository</p>
+          </div>
+        </div>
+    </a>
+  </a>
+      </div>
+      <div class="cell">
+        <div class="card">
+          <div class="card-section">
+            <h4>Code API-code-quiz</h4>
+            <a href="https://efagioli01.github.io/API-code-quiz/"><img src="images/Captureforp2.PNG" alt="text">
+          <!-- <div class="card-section">
+            <h4>Code API-code-quiz</h4> -->
+            <a href="https://github.com/efagioli01/API-code-quiz">
+              <div class="card-section"></div>
+            <p>Link to Repository</p>
+          </div>
+        </div>
+    </a>
+  </a>
+      </div>
+    </div>
+  </div>
+  <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+    <div class="cell">
+      <div class="card">
+        <div class="card-section">
+          <h4>Work-Day-Scheduler-Code-Refactor</h4>
+        <a href="https://efagioli01.github.io/Work-Day-Scheduler-Code-Refactor/">
+            <img src="images/Captureforp3.PNG" alt="texts">
+        <!-- <div class="card-section">
+          <h4>Work-Day-Scheduler-Code-Refactor</h4> -->
+          <a href="https://github.com/efagioli01/Work-Day-Scheduler-Code-Refactor">
+            <div class="card-section"></div>
+          <p>Link to Repository</p>
+        </div>
+      </div>
+    </div>
+</a>
+</a>
+    <div class="cell">
+      <div class="card">
+        <div class="card-section">
+          <h4>Weather-Dashboard</h4>
+        <a href="https://efagioli01.github.io/Weather-Dashboard/">
+        <img src="images/Captureweather.PNG">
+        <!-- <div class="card-section">
+          <h4>Weather-Dashboard</h4> -->
+          <a href="https://github.com/efagioli01/Weather-Dashboard">
+            <div class="card-section"></div>
+          <p>Link to Repository</p>
+        </div>
+      </div>
+    </div>
+  </a>
+</a>
+    <div class="cell">
+      <div class="card">
+        <div class="card-section">
+          <h4>Find Me Food-Group Project</h4>
+        <a href="https://unh-bootcamp-projects.github.io/project-1-group-c/">
+        <img src="images/find me food.PNG">
+        <!-- <div class="card-section">
+          <h4>Find Me Food-Group Project</h4> -->
+          <a href="https://github.com/UNH-Bootcamp-Projects/project-1-group-c">
+            <div class="card-section"></div>
+          <p>Link to Repository</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+</a>
+</section>
+
+<section id="contact">
+<ul class="dropdown menu" data-dropdown-menu>
+  <li><a href="mailto:efagioli01@gmail.com">Email</a></li>
+  <li><a href="tel:6173208514">Telephone</a></li>
+  <li><a href="https://github.com/efagioli01">Github</a></li>
+  <li><a href="https://www.linkedin.com/in/erica-fagioli-00535216a/">linkedin</a></li>
+</ul>
+</section>
 
 
-    </section>
+    
 
-    <section id="contact" class="contact-links">
-        <h1>Contact Me</h1>
-        <ul>
-            <li>
-                <a href="mailto:efagioli01@gmail.com">efagioli01@gmail.com</a>
-
-            </li>
-            <li>
-
-                <a href="tel:6173208514">6173208514</a>
-
-            </li>
-            <li>
-                <a href="https://github.com/efagioli01">Github</a>
-            </li>
-        </ul>
-    </section>
 
 
     <footer>

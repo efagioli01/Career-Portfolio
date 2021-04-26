@@ -1,6 +1,5 @@
-/* General Styling */
 
-* {
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0; 
@@ -8,105 +7,115 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     color: #333;
-    background-color: white;
+    background-color: #e6e6e6;
+  
 }
 
 body, html {
     width: 100%;
     height: 100%;
+    background-color: #e6e6e6;
 }
 
-/* Headers */
-
-header {
-    font-family: "Sofia", sans-serif;
-    font-size: 30px;
-    text-shadow: 3px 3px 3px #ababab;
-    color: darkorchid;
-    
+.aboutMe{
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    font-size: 20px;
-    color: darkorchid;
-    text-decoration: underline ;
-}
-
-/* Navigation bar */
-
- #navbar { 
-    background-color: white;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-}
-
-#navbar ul {
-    padding: 5px;
+.portfolio-hero-header {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0.1rem;
-    margin: 0 0.5rem;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #e6e6e6;
+    padding: 2rem 0;
+    font-family: 'Montserrat', sans-serif
     
+  }
+
+  .portfolio-hero-header-h1{
+    font-family: 'Montserrat', sans-serif
+  }
+
+  .portfolio-hero-header-logo {
+      width: 25%;
+      height: 25%;
+  }
+  
+  .portfolio-hero-header-description {
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
+  
+  .portfolio-hero-header-description li {
+    -webkit-flex: 1 0 200px;
+        -ms-flex: 1 0 200px;
+            flex: 1 0 200px;
+    text-align: center;
+    padding: 0 1.25rem;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .portfolio-hero-header-description li:before {
+    content: "*";
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+  
+  .portfolio-hero-header-description li:first-child:before {
+    content: "";
+  }
+  
+  .portfolio-hero-header-menu {
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
+  
+  .portfolio-hero-header-menu li {
+    margin: 1.25rem;
+    
+  }
+  
+  .portfolio-hero-header-menu li a {
+      list-style: none;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+img{
+    height: 100%; 
+     width: 100%; 
+     object-fit:cover; 
 }
 
-#navbar ul li {
-    padding: 10px 10px 10px 10px;  
-}
-
-#navbar ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: hotpink;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#navbar ul li a:hover {
-    background-color: lightpink;
-    transition: 0.5s;
-}
-
-
-/* Background image */
-
-#subheader {
-    background-image: url("./images/gradient.jpg");
-    padding: 40px 40px 40px 40px;
-    margin-top: 40px;
-    width: 100%;
-
-}
 
 /* links to deployment of work */
 
-.gallery-links {
-    padding: 20px;
-
-}
-.gallery-links div{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:space-between;
-
-}
-
-.gallery-links div a {
-    flex-basis: 350px;
-    height: 250px;
-    position: relative;
-    margin: 20px; 
-    
-
-}
 
 /* Images of pictures of deployments */
 
- .gallery-links img {
+ /* .gallery-links img {
     height: 100%; 
      width: 100%; 
      object-fit:cover; 
@@ -116,12 +125,12 @@ h1 {
  .gallery-links a:first-of-type {
     flex-basis: 425px;
     
- }
+ } */
 
 
  /*  header on deployment pictures */
 
-.gallery-links h3{
+/* .gallery-links h3{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -132,65 +141,19 @@ h1 {
     height: 32px;
     line-height: 32px;
     background-color: rgb(228, 61, 178, 0.25);
-}
-
- #Work {
-    border: 2px solid rgb(255, 0, 149)
-    
-}
+} */ 
 
 
-#about-me {
-    border: 5px solid color rgb(255, 0, 149);
-    
-}
-
-#contact {
-    border: 5px solid color rgb(255, 0, 149);
-}
-
-.contact-links { 
-    background-color: white;
-    width: 100%;
-}
-
-/* Contact links  */
-
-.contact-links ul {
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0.1rem;
-    margin: 0 0.5rem;
-}
-
-.contact-links ul li {
-    padding: 10px 10px 10px 10px;  
-}
-
-.contact-links ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: hotpink;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.contact-links ul li a:hover {
-    background-color: lightpink;
-    transition: 0.5s;
-}
-
-
-/* Footer  */
 
 footer {
     text-align: center;
     padding: 20px;
-    color: rgb(255, 0, 149);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e6e6e6;
 }
 
-/* Media Query */
+/* Media Query
 
 @media (max-width: 500px) {
         #navbar ul {
@@ -200,11 +163,14 @@ footer {
             justify-content: center;
 
     }
+}
 
 @media (max-width: 700px) {
         #subheader {
              height: 160px; 
     }   
+
+}
 
     @media (max-width: 700px) {
         .contact-links ul {
@@ -214,8 +180,9 @@ footer {
             justify-content: center;
 
     }
+} */
 
-     @media (max-width: 700px) { 
+     /* @media (max-width: 700px) { 
         .gallery-links img { 
         display: flex; 
         flex-direction:column;
@@ -238,5 +205,6 @@ footer {
           position: relative;
           margin: 30px; 
             }
-          
-                   
+        }
+           */
+         
