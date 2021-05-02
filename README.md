@@ -1,16 +1,19 @@
 # Erica-Fagioli-Career-Portfolio
 
-For this second homework assignment in week two of UNH Full-Stack Coding Bootcamp, I was able to build the foundation of a portfolio with the material I was taught over the first two weeks.
+For this  homework assignment in week seven of UNH Full-Stack Coding Bootcamp, I was to make updates to the  portfolio i built in week two of the program with the material I was taught over the first two weeks.
 
-I have created a fully responsive portfoilo website that showcases the projects I have worked on thus far. 
+I have created a fully responsive portfoilo website that showcases the homework and projects I have worked on thus far, I switcheed my styling with Bootstrap and used foundation since I was to learn a new CSS framework for the 1st project and foundation was the framework i chose.
 
-I added links to the navigation bar so when the links are clicked on the UI scrolls to the corresponding section. 
+ links to the navigation bar so when the links are clicked on the UI scrolls to the corresponding section. 
 
-When the link for my work is clicked on the UI scrolls to a section with images and titles of my work.
-
-When the picture is clicked on, the UI is taken to Github to view the deployment.
+When the link for my work is clicked on the UI scrolls to a section with images and titles of my work. On each image of my work the user is able to click on it and is taken to the deployed page. There is also a link to the repository under each image.
 
 I have added hover effets on my Navigation bar and my contact links. The hover effect adds a transition of color to my links when the user clicks them to more easily direct them. 
+
+## Additions
+updated reume with a clickable link in the portfolio
+updated linkedin with a clickable link in the portfolio
+updated Githb account with a picture, two pinned homework assignments and a pin for project 1
 
 
 ## Built with
@@ -27,7 +30,7 @@ I have added hover effets on my Navigation bar and my contact links. The hover e
 
 
 ## Screenshot 
- ![screenshot](./images/portfoliocapture.PNG)
+ ![screenshot](./images/snipofportfolio.PNG)
 
 
 

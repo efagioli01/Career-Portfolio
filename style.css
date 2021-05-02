@@ -139,10 +139,11 @@ footer {
   flex-direction: column;
 }
 
-/* @media screen and (min-width: 320px) {
+ @media screen and (min-width: 320px) {
 
 }.portfolio-hero-header-menu{
   display: flex;
-  flex-direction: column;
-} */
+  flex-wrap: wrap;
+  flex-direction: row;
+} 
  
