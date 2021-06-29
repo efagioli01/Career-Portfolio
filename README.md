@@ -1,8 +1,8 @@
 # Erica-Fagioli-Career-Portfolio
 
-For this  homework assignment in week seven of UNH Full-Stack Coding Bootcamp, I was to make updates to the  portfolio i built in week two of the program with the material I was taught over the first two weeks.
+For the 16th homework assignment in week sixteen of UNH Full-Stack Coding Bootcamp, I was to make updates to the  portfolio I built in week two of the program with the material I was taught over the first two weeks.
 
-I have created a fully responsive portfoilo website that showcases the homework and projects I have worked on thus far, I switcheed my styling with Bootstrap and used foundation since I was to learn a new CSS framework for the 1st project and foundation was the framework i chose.
+I have created a fully responsive portfoilo website that showcases the homework and projects I have worked on thus far, I switcheed my styling with Bootstrap and used foundation since I was to learn a new CSS framework for the 1st project and foundation was the framework I chose.
 
  links to the navigation bar so when the links are clicked on the UI scrolls to the corresponding section. 
 
@@ -11,16 +11,16 @@ When the link for my work is clicked on the UI scrolls to a section with images 
 I have added hover effets on my Navigation bar and my contact links. The hover effect adds a transition of color to my links when the user clicks them to more easily direct them. 
 
 ## Additions
-updated reume with a clickable link in the portfolio
-updated linkedin with a clickable link in the portfolio
-updated Githb account with a picture, two pinned homework assignments and a pin for project 1
+- updated reume with a clickable link in the portfolio
+- updated linkedin with a clickable link in the portfolio
+- updated Githb account with a picture, two pinned homework assignments and a pin for project 1 and project 2
 
 
 ## Built with
 
-* HTML
-* CSS
-* Foundation
+- HTML
+- CSS
+- Foundation
 
 
 ## Links
